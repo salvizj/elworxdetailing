@@ -1,6 +1,5 @@
 import * as THREE from "three"
-import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader.js"
-import { MTLLoader } from "three/examples/jsm/loaders/MTLLoader.js"
+import { MTLLoader, OBJLoader } from "three-stdlib"
 
 export default function HandleCarScene() {
 	const container = document.getElementById("car-scene")
@@ -28,10 +27,10 @@ export default function HandleCarScene() {
 	directionalLight.castShadow = false
 	scene.add(directionalLight)
 
-	const ambientLight = new THREE.AmbientLight(0x808080, 30)
+	const ambientLight = new THREE.AmbientLight(0x808080, 10)
 	scene.add(ambientLight)
 
-	const fillLight = new THREE.DirectionalLight(0xffffff, 30)
+	const fillLight = new THREE.DirectionalLight(0xffffff, 10)
 	fillLight.position.set(-10, 10, -10)
 	scene.add(fillLight)
 
