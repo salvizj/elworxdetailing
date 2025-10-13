@@ -10,13 +10,13 @@ export default function HandleNavMenuToggle() {
 		if (!navOpenBtn || !navCollapseBtn || !navOpen || !navCollapsed) return
 
 		navOpenBtn.addEventListener("click", () => {
-			navOpen.classList.remove("hidden")
+			navOpen.classList.remove("-translate-x-full")
 			navCollapsed.classList.add("hidden")
 			navOpenBtn.classList.add("hidden")
 		})
 
 		navCollapseBtn.addEventListener("click", () => {
-			navOpen.classList.add("hidden")
+			navOpen.classList.add("-translate-x-full")
 			navCollapsed.classList.remove("hidden")
 			navOpenBtn.classList.remove("hidden")
 		})
