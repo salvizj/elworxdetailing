@@ -4,33 +4,32 @@ export default function HandleNavMenuToggle() {
 		const navCollapseBtn =
 			document.querySelector<HTMLElement>("#nav-collapse-btn")
 		const navOpen = document.querySelector<HTMLElement>(".nav-open")
-		const navCollapsed =
-			document.querySelector<HTMLElement>(".nav-collapsed")
+		const navCollapsed = document.querySelector<HTMLElement>(".nav-collapsed")
 
 		if (!navOpenBtn || !navCollapseBtn || !navOpen || !navCollapsed) return
 
 		navOpenBtn.addEventListener("click", () => {
 			navOpen.classList.remove("-translate-x-full")
-			navCollapsed.classList.add("hidden")
+			navCollapsed.classList.add("-translate-x-full")
 			navOpenBtn.classList.add("hidden")
 		})
 
 		navCollapseBtn.addEventListener("click", () => {
 			navOpen.classList.add("-translate-x-full")
-			navCollapsed.classList.remove("hidden")
+			navCollapsed.classList.remove("-translate-x-full")
 			navOpenBtn.classList.remove("hidden")
 		})
 
 		window.addEventListener("resize", () => {
 			if (window.getComputedStyle(navOpenBtn).display === "none") {
-				navOpen.classList.add("hidden")
-				navCollapsed.classList.remove("hidden")
+				navOpen.classList.add("-translate-x-full")
+				navCollapsed.classList.remove("-translate-x-full")
 				navOpenBtn.classList.remove("hidden")
 			}
 		})
 		window.addEventListener("hashchange", function () {
-			navOpen.classList.add("hidden")
-			navCollapsed.classList.remove("hidden")
+			navOpen.classList.add("-translate-x-full")
+			navCollapsed.classList.remove("-translate-x-full")
 			navOpenBtn.classList.remove("hidden")
 		})
 	})

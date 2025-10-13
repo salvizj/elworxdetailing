@@ -15,7 +15,7 @@ const { priceSection } = Astro.props
 				{priceSection.title}
 			</h3>
 			<ul class="space-y-4">
-				{priceSection.services.map((item, index) => (
+				{priceSection.services.map((item, _) => (
 					<li class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-6 p-4 sm:p-6 rounded-xl bg-bg-card border border-border-muted shadow-sm hover:shadow-md transition-shadow duration-200">
 						<div class="flex-1 min-w-0">
 							<p class="text-text-primary font-medium">{item.title}</p>
