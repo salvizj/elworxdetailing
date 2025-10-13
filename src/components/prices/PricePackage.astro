@@ -11,27 +11,31 @@ const { title, ...packages } = pricePackagesContainer
 ---
 
 <div>
-	<h2 class="text-3xl font-bold mb-6">{title}</h2>
+	<h2 class="text-3xl font-bold mb-8 text-text-primary">{title}</h2>
 
 	{
-		Object.entries(packages).map(([_, pkg]) => (
-			<div class="mb-10">
-				<h3 class=" mb-4">{pkg.title}</h3>
+		Object.entries(packages).map(([_, pkg], index) => (
+			<div class="mb-10 p-5 sm:p-6 rounded-xl bg-bg-card border border-border-muted shadow-sm hover:shadow-md transition-shadow duration-200">
+				<h3 class="text-2xl font-semibold mb-4 text-text-primary">
+					{pkg.title}
+				</h3>
 				<ul class="space-y-4">
-					{pkg.services.map((service, _) => (
-						<li class="flex flex-col sm:flex-row justify-start sm:justify-between items-start sm:items-center gap-4 sm:gap-8">
+					{pkg.services.map((service, idx) => (
+						<li class="flex flex-col sm:flex-row justify-start sm:justify-between items-start sm:items-center gap-4 sm:gap-6">
 							<div class="flex-1 min-w-0 max-w-full">
-								<p class="text-text-primary">{service.title}</p>
+								<p class="text-text-primary font-medium">{service.title}</p>
 								{service.description && (
-									<p class=" mt-1">{service.description}</p>
+									<p class="mt-1 text-text-secondary">{service.description}</p>
 								)}
 							</div>
 						</li>
 					))}
 				</ul>
-				<p class="mt-4 font-bold text-text-primary text-right">
-					{pkg.price}
-				</p>
+				{pkg.price && (
+					<p class="mt-4 font-bold text-accent text-right text-lg sm:text-xl">
+						{pkg.price}
+					</p>
+				)}
 			</div>
 		))
 	}
