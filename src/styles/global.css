@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
@@ -17,6 +18,9 @@
 	--color-hover-primary: #00c9e6;
 	--color-hover-muted: #33e3ff;
 	--color-accent: #00e3ff;
+
+	--font-heading: "Raleway";
+	--font-body: "Mulish";
 }
 
 @layer base {
@@ -38,116 +42,47 @@
 	}
 }
 
-/* montserrat-200 - latin */
-@font-face {
-	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-	font-family: "Montserrat";
-	font-style: normal;
-	font-weight: 200;
-	src: url("../fonts/montserrat-v29-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* montserrat-300 - latin */
-@font-face {
-	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-	font-family: "Montserrat";
-	font-style: normal;
-	font-weight: 300;
-	src: url("../fonts/montserrat-v29-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* montserrat-regular - latin */
-@font-face {
-	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-	font-family: "Montserrat";
-	font-style: normal;
-	font-weight: 400;
-	src: url("../fonts/montserrat-v29-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* montserrat-600 - latin */
-@font-face {
-	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-	font-family: "Montserrat";
-	font-style: normal;
-	font-weight: 600;
-	src: url("../fonts/montserrat-v29-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* montserrat-700 - latin */
-@font-face {
-	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-	font-family: "Montserrat";
-	font-style: normal;
-	font-weight: 700;
-	src: url("../fonts/montserrat-v29-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* montserrat-800 - latin */
-@font-face {
-	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-	font-family: "Montserrat";
-	font-style: normal;
-	font-weight: 800;
-	src: url("../fonts/montserrat-v29-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/* montserrat-900 - latin */
-@font-face {
-	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-	font-family: "Montserrat";
-	font-style: normal;
-	font-weight: 900;
-	src: url("../fonts/montserrat-v29-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-:root {
-	font-family:
-		"Montserrat",
-		system-ui,
-		-apple-system,
-		BlinkMacSystemFont,
-		"Segoe UI",
-		Roboto,
-		Helvetica,
-		Arial,
-		sans-serif,
-		"Apple Color Emoji",
-		"Segoe UI Emoji";
-}
 @layer base {
 	html {
-		@apply text-base leading-relaxed tracking-wide;
+		@apply text-base leading-relaxed tracking-wide font-body;
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-heading text-text-primary;
 	}
 	h1 {
-		@apply text-3xl sm:text-4xl md:text-5xl font-bold text-text-primary;
+		@apply text-3xl sm:text-4xl md:text-5xl font-bold;
 	}
 
 	h2 {
-		@apply text-2xl sm:text-3xl md:text-4xl font-semibold text-text-primary;
+		@apply text-2xl sm:text-3xl md:text-4xl font-semibold;
 	}
 
 	h3 {
-		@apply text-lg sm:text-xl md:text-2xl font-semibold text-text-primary;
+		@apply text-lg sm:text-xl md:text-2xl font-semibold;
 	}
 
 	h4 {
-		@apply text-base sm:text-lg md:text-xl font-semibold text-text-primary;
+		@apply text-base sm:text-lg md:text-xl font-semibold;
 	}
 
 	h5 {
-		@apply text-sm sm:text-base font-semibold text-text-primary;
+		@apply text-sm sm:text-base font-semibold;
 	}
 
 	button {
-		@apply text-text-primary font-semibold hover:bg-hover-primary  py-2 px-4 rounded transition-colors duration-200 cursor-pointer border border-border-default bg-bg-card;
+		@apply font-body text-text-primary font-semibold hover:bg-hover-primary  py-2 px-4 rounded transition-colors duration-200 cursor-pointer border border-border-default bg-bg-card;
 	}
 	p,
 	li,
 	a {
-		@apply text-base sm:text-lg text-text-secondary no-underline;
+		@apply font-body text-base sm:text-lg text-text-secondary no-underline;
 	}
 	a {
-		@apply cursor-pointer;
+		@apply font-body cursor-pointer;
 	}
 }

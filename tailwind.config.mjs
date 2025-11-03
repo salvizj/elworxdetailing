@@ -3,9 +3,6 @@ export default {
 	darkMode: "class",
 	theme: {
 		extend: {
-			fontFamily: {
-				montserrat: ["Montserrat", "sans-serif"],
-			},
 			colors: {
 				text: {
 					primary: "var(--color-text-primary)",
