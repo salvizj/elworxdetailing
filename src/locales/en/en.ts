@@ -25,7 +25,7 @@ export const en = {
 	hero: {
 		title: "Elworx Auto Detailing Studio",
 		description:
-			"Certified detailer services just outside Riga – in Salaspils — car chemical cleaning, polishing, protective coatings, headlight restoration, leather coloring, and ozonation.",
+			"Certified detailer services here in Pieriga - Bergi - car chemical cleaning, polishing, pre-sale preparation, protective coatings, headlight restoration, ozonation",
 		imageCaption:
 			"Studio executor, who works according to Zvizzer Thermo Technology polishing system.",
 		cta: "View Services",

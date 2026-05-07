@@ -25,7 +25,7 @@ export const lv = {
 	hero: {
 		title: "Elworx Auto Detailing Studija",
 		description:
-			"Sertificēta detailera pakalpojumi tepat ārpus Rīgas - Salaspilī — auto ķīmiskā tīrīšana, pulēšana, aizsargpārklājumi, lukturu restaurācija, ādas krāsošana un ozonēšana.",
+			"Sertificēta detailera pakalpojumi tepat Pierīgā - Berģos — auto ķīmiskā tīrīšana, pulēšana, pirmspārdošanas sagatavošana, aizsargpārklājumi, lukturu restaurācija, ozonēšana",
 		imageCaption:
 			"Studijas realizētājs, kas darbojas pēc Zvizzer Thermo Technology pulēšanas sistēmas.",
 		cta: "Skatīt pakalpojumus",
