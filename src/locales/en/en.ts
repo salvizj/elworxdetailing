@@ -23,7 +23,7 @@ export const en = {
 		recent_work: "Recent work",
 	},
 	hero: {
-		title: "Fineshine Auto Detailing Studio",
+		title: "Elworx Auto Detailing Studio",
 		description:
 			"Certified detailer services just outside Riga – in Salaspils — car chemical cleaning, polishing, protective coatings, headlight restoration, leather coloring, and ozonation.",
 		imageCaption:
@@ -62,14 +62,12 @@ export const en = {
 
 		third_party: {
 			title: "Do we use third-party cookies?",
-			description:
-				"No, we do not use any third-party cookies or trackers.",
+			description: "No, we do not use any third-party cookies or trackers.",
 		},
 
 		personal_data: {
 			title: "Is personal data collected?",
-			description:
-				"No personal data or IP addresses are collected or stored.",
+			description: "No personal data or IP addresses are collected or stored.",
 		},
 	},
 	auto_detailing: {
@@ -267,14 +265,16 @@ export const en = {
 				title: "Every Car Owner's Dream",
 				services: [
 					{
-						title: "Interior chemical cleaning with protective coatings for seats",
+						title:
+							"Interior chemical cleaning with protective coatings for seats",
 					},
 					{
 						title: "Glass treatment with water-repellent protective coating",
 						description: "Durability up to 1 year.",
 					},
 					{
-						title: "Headlight grinding/polishing and ceramic coating application",
+						title:
+							"Headlight grinding/polishing and ceramic coating application",
 					},
 					{
 						title: "In-depth 3-step car body polishing",
@@ -291,14 +291,16 @@ export const en = {
 				title: "Mirror",
 				services: [
 					{
-						title: "Interior chemical cleaning with protective coatings for seats",
+						title:
+							"Interior chemical cleaning with protective coatings for seats",
 					},
 					{
 						title: "Glass treatment with water-repellent protective coating",
 						description: "Durability up to 1 year.",
 					},
 					{
-						title: "Headlight grinding/polishing and ceramic coating application",
+						title:
+							"Headlight grinding/polishing and ceramic coating application",
 					},
 					{
 						title: "2-step car body polishing",

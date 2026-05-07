@@ -23,7 +23,7 @@ export const lv = {
 		recent_work: "Pēdējie darbi",
 	},
 	hero: {
-		title: "Fineshine Auto Detailing Studija",
+		title: "Elworx Auto Detailing Studija",
 		description:
 			"Sertificēta detailera pakalpojumi tepat ārpus Rīgas - Salaspilī — auto ķīmiskā tīrīšana, pulēšana, aizsargpārklājumi, lukturu restaurācija, ādas krāsošana un ozonēšana.",
 		imageCaption:
@@ -62,14 +62,12 @@ export const lv = {
 
 		third_party: {
 			title: "Vai mēs izmantojam trešo pušu sīkfailus?",
-			description:
-				"Nē, mēs neizmantojam trešo pušu sīkfailus vai izsekotājus.",
+			description: "Nē, mēs neizmantojam trešo pušu sīkfailus vai izsekotājus.",
 		},
 
 		personal_data: {
 			title: "Vai tiek vākti personas dati?",
-			description:
-				"Netiek vākti vai saglabāti personas dati vai IP adreses.",
+			description: "Netiek vākti vai saglabāti personas dati vai IP adreses.",
 		},
 	},
 	auto_detailing: {
@@ -262,7 +260,8 @@ export const lv = {
 				title: "Katra auto īpašnieka sapnis",
 				services: [
 					{
-						title: "Salona ķīmiskā tīrīšana ar aizsargpārklājumiem priekš sēdekļiem",
+						title:
+							"Salona ķīmiskā tīrīšana ar aizsargpārklājumiem priekš sēdekļiem",
 					},
 					{
 						title: "Stiklu apstrāde ar ūdeni atgrūdošu aizsargpārklājumu",
@@ -286,7 +285,8 @@ export const lv = {
 				title: "Spogulis",
 				services: [
 					{
-						title: "Salona ķīmiskā tīrīšana ar aizsargpārklājumiem priekš sēdekļiem",
+						title:
+							"Salona ķīmiskā tīrīšana ar aizsargpārklājumiem priekš sēdekļiem",
 					},
 					{
 						title: "Stiklu apstrāde ar ūdens atgrūdošu aizsargpārklājumu",

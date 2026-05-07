@@ -4,85 +4,82 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-	--color-text-primary: #0d1f33;
-	--color-text-secondary: #1a3b5a;
-	--color-text-tertiary: #7d9cb8;
-
-	--color-bg-default: #f5faff;
-	--color-bg-muted: #e6faff;
-	--color-bg-card: #ffffff;
-
-	--color-border-default: #b3ecff;
-	--color-border-muted: #d0f4ff;
-
-	--color-hover-primary: #00c9e6;
-	--color-hover-muted: #33e3ff;
-	--color-accent: #00e3ff;
-
-	--font-heading: "Raleway";
-	--font-body: "Mulish";
+  --color-text-primary: #111111;
+  --color-text-secondary: #444444;
+  --color-text-tertiary: #888888;
+  --color-bg-default: #fafafa;
+  --color-bg-muted: #f2f2f2;
+  --color-bg-card: #ffffff;
+  --color-border-default: #e0e0e0;
+  --color-border-muted: #efefef;
+  --color-hover-primary: #ff0a2a;
+  --color-hover-muted: #cc0020;
+  --color-accent: #e3001f;
+  --font-heading: "Raleway";
+  --font-body: "Mulish";
 }
 
 @layer base {
-	@variant dark {
-		--color-text-primary: #f0faff;
-		--color-text-secondary: #c0f0ff;
-		--color-text-tertiary: #99eaff;
-
-		--color-bg-default: #00040f;
-		--color-bg-muted: #0d1a2b;
-		--color-bg-card: #040e1b;
-
-		--color-border-default: #005580;
-		--color-border-muted: #002233;
-
-		--color-hover-primary: #33f0ff;
-		--color-hover-muted: #66f7ff;
-		--color-accent: #00e3ff;
-	}
+  @variant dark {
+    --color-text-primary: #f2f2f2;
+    --color-text-secondary: #a0a0a0;
+    --color-text-tertiary: #606060;
+    --color-bg-default: #0d0d0d;
+    --color-bg-muted: #1a1a1a;
+    --color-bg-card: #111111;
+    --color-border-default: #2e2e2e;
+    --color-border-muted: #1e1e1e;
+    --color-hover-primary: #ff0a2a;
+    --color-hover-muted: #cc0020;
+    --color-accent: #e3001f;
+  }
 }
 
 @layer base {
-	html {
-		@apply text-base leading-relaxed tracking-wide font-body;
-	}
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6 {
-		@apply font-heading text-text-primary;
-	}
-	h1 {
-		@apply text-3xl sm:text-4xl md:text-5xl font-bold;
-	}
+  html {
+    @apply text-base leading-relaxed tracking-wide font-body;
+  }
 
-	h2 {
-		@apply text-2xl sm:text-3xl md:text-4xl font-semibold;
-	}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading text-text-primary;
+  }
 
-	h3 {
-		@apply text-lg sm:text-xl md:text-2xl font-semibold;
-	}
+  h1 {
+    @apply text-3xl sm:text-4xl md:text-5xl font-bold;
+  }
 
-	h4 {
-		@apply text-base sm:text-lg md:text-xl font-semibold;
-	}
+  h2 {
+    @apply text-2xl sm:text-3xl md:text-4xl font-semibold;
+  }
 
-	h5 {
-		@apply text-sm sm:text-base font-semibold;
-	}
+  h3 {
+    @apply text-lg sm:text-xl md:text-2xl font-semibold;
+  }
 
-	button {
-		@apply font-body text-text-primary font-semibold hover:bg-hover-primary  py-2 px-4 rounded transition-colors duration-200 cursor-pointer border border-border-default bg-bg-card;
-	}
-	p,
-	li,
-	a {
-		@apply font-body text-base sm:text-lg text-text-secondary no-underline;
-	}
-	a {
-		@apply font-body cursor-pointer;
-	}
+  h4 {
+    @apply text-base sm:text-lg md:text-xl font-semibold;
+  }
+
+  h5 {
+    @apply text-sm sm:text-base font-semibold;
+  }
+
+  button {
+    @apply font-body text-text-primary font-semibold hover:bg-hover-primary py-2 px-4 rounded transition-colors duration-200 cursor-pointer border border-border-default bg-bg-card;
+  }
+
+  p,
+  li,
+  a {
+    @apply font-body text-base sm:text-lg text-text-secondary no-underline;
+  }
+
+  a {
+    @apply font-body cursor-pointer;
+  }
 }

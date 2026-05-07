@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://fineshine.lv/sitemap.xml
+Sitemap: https://elworxdetailing.lv/sitemap.xml

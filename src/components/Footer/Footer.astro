@@ -9,7 +9,7 @@ interface Props {
 const { t, languageCode } = Astro.props as Props
 
 const phoneNumber = "+371 23370066"
-const address = "Līvzemes iela 22B, Salaspils, LV-2169, Latvija"
+const address = "Rīgas-Siguldas šoseja 3B, Rīga, LV-1024"
 const cookiePolicyLink = "cookie-policy"
 const autoDetailingLink = "auto-detailing"
 const servicesLink = "services"
@@ -76,9 +76,7 @@ const recentWorkHref = `/${languageCode}/${recentWorkLink}`
 			</section>
 
 			{/* Other Links Section */}
-			<section
-				class="flex flex-col items-start text-left px-2 w-full md:w-64"
-			>
+			<section class="flex flex-col items-start text-left px-2 w-full md:w-64">
 				<h5 class="mb-2">
 					{t("footer.other_links")}
 				</h5>
@@ -108,6 +106,6 @@ const recentWorkHref = `/${languageCode}/${recentWorkLink}`
 	<div
 		class="mt-4 text-center select-none text-sm text-muted-foreground space-y-1"
 	>
-		<p>&copy; 2025 Fineshine</p>
+		<p>&copy; 2025 elworxdetailing</p>
 	</div>
 </footer>
