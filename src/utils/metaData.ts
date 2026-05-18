@@ -9,27 +9,27 @@ export type LanguageMeta = {
 const metaData: Record<LanguageCode, LanguageMeta> = {
 	lv: {
 		title:
-			"Elworx Auto Detailing Salaspilī – Kvalitatīva Auto Kopšana, Pulēšana un Aizsardzība",
+			"Elworx Auto Detailing Berģos – Sertificēta Detailera Pakalpojumi Pierīgā",
 		description:
-			"Elworx ir sertificēta auto detailešanas studija Salaspilī, netālu no Rīgas. Piedāvājam profesionālu auto ķīmisko tīrīšanu, virsbūves pulēšanu un ilgstošus aizsargpārklājumus. Atjaunojam lukturus, krāsojam ādu un veicam salona ozonēšanu. Uzticiet sava auto izskatu un aizsardzību pieredzējušiem profesionāļiem!",
+			"Elworx ir sertificēta auto detailešanas studija Berģos, Pierīgā. Piedāvājam profesionālu auto ķīmisko tīrīšanu, virsbūves pulēšanu, pirmspārdošanas sagatavošanu, ilgstošus aizsargpārklājumus, lukturu restaurāciju un salona ozonēšanu. Uzticiet sava auto kopšanu pieredzējušiem profesionāļiem!",
 		keywords:
-			"auto detailing Salaspilī, auto ķīmiskā tīrīšana, auto salona tīrīšana, virsbūves pulēšana, auto virsbūves aizsargpārklājumi, keramiskais pārklājums auto, lukturu restaurācija, auto ādas krāsošana, salona ozonēšana, profesionāla auto kopšana, auto apstrāde Rīga, auto detailešana Salaspils, mašīnas spodrināšana, auto dizains",
+			"auto detailing Berģi, auto detailing Pierīga, auto ķīmiskā tīrīšana, auto salona tīrīšana, virsbūves pulēšana, pirmspārdošanas sagatavošana, auto aizsargpārklājumi, keramiskais pārklājums auto, lukturu restaurācija, salona ozonēšana, profesionāla auto kopšana, sertificēts detailers, auto ādas krāsošana, mašīnas spodrināšana, auto detailešana Berģi",
 	},
 	en: {
 		title:
-			"Elworx Auto Detailing Salaspils – Quality Car Care, Polishing & Protection",
+			"Elworx Auto Detailing Berģi – Certified Detailing Services Near Riga",
 		description:
-			"Elworx is a certified car detailing studio in Salaspils, near Riga. We offer professional car chemical cleaning, body polishing, and long-lasting protective coatings. We restore headlights, dye leather, and perform interior ozone treatment. Entrust your car's appearance and protection to experienced professionals!",
+			"Elworx is a certified car detailing studio in Berģi, near Riga. We offer professional car chemical cleaning, body polishing, pre-sale preparation, long-lasting protective coatings, headlight restoration, and interior ozone treatment. Entrust your car's care to experienced professionals!",
 		keywords:
-			"auto detailing Salaspils, car chemical cleaning, car interior cleaning, car body polishing, car body protective coatings, ceramic coating car, headlight restoration, car leather dyeing, interior ozone treatment, professional car care, car treatment Riga, car detailing Salaspils, car buffing, car aesthetics",
+			"auto detailing Berģi, car detailing near Riga, car chemical cleaning, car interior cleaning, car body polishing, pre-sale car preparation, car protective coatings, ceramic coating car, headlight restoration, interior ozone treatment, professional car care, certified car detailer, car leather dyeing, car buffing, car aesthetics",
 	},
 	ru: {
 		title:
-			"Elworx Авто Детейлинг Саласпилс – Качественный Уход, Полировка и Защита Авто",
+			"Elworx Авто Детейлинг Берги – Сертифицированные Услуги Детейлинга у Риги",
 		description:
-			"Elworx – это сертифицированная студия авто детейлинга в Саласпилсе, недалеко от Риги. Мы предлагаем профессиональную химчистку автомобиля, полировку кузова и долговечные защитные покрытия. Восстанавливаем фары, красим кожу и проводим озонирование салона. Доверьте внешний вид и защиту вашего автомобиля опытным профессионалам!",
+			"Elworx – сертифицированная студия авто детейлинга в Берги, рядом с Ригой. Предлагаем профессиональную химчистку автомобиля, полировку кузова, предпродажную подготовку, долговечные защитные покрытия, восстановление фар и озонирование салона. Доверьте уход за вашим автомобилем опытным профессионалам!",
 		keywords:
-			"авто детейлинг Саласпилс, химчистка автомобиля, химчистка салона авто, полировка кузова, защитные покрытия кузова, керамическое покрытие авто, восстановление фар, покраска кожи авто, озонирование салона, профессиональный уход за авто, обработка авто Рига, детейлинг Саласпилс, полировка машины, авто дизайн",
+			"авто детейлинг Берги, детейлинг рядом с Ригой, химчистка автомобиля, химчистка салона авто, полировка кузова, предпродажная подготовка авто, защитные покрытия кузова, керамическое покрытие авто, восстановление фар, озонирование салона, профессиональный уход за авто, сертифицированный детейлер, покраска кожи авто, полировка машины",
 	},
 }
 

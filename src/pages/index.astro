@@ -15,7 +15,10 @@ const redirectScript = `window.location.replace(${JSON.stringify(redirectUrl)});
 	keywords={meta.keywords}
 >
 	<head slot="head">
-		<meta http-equiv="refresh" content={`0; url=${redirectUrl}`} />
+		<meta http-equiv="refresh" content={`0; url=${redirectUrl}`} /><meta
+			name="google-site-verification"
+			content="89NZBfWq84OVkP3AxD50M8V4x_wQA-Z15ypiPgB7oSk"
+		/>
 	</head>
 	<script is:inline set:html={redirectScript} />
 
